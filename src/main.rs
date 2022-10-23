@@ -226,8 +226,6 @@ fn add_barrel(
     tower_bases: Query<&Transform, With<TowerBase>>,
     assets: Res<GameAssets>,
 ) {
-    debug!("I'm here smh");
-
     for transform in &tower_bases {
         debug!("Tower base found");
 
